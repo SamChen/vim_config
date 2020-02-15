@@ -29,12 +29,6 @@ Plug 'SirVer/ultisnips'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 
-" markdown
-Plug 'gabrielelana/vim-markdown'
-
-" letax
-Plug 'xuhdev/vim-latex-live-preview'
-
 " General vim improvements
 Plug 'justinmk/vim-dirvish'
 Plug 'tpope/vim-fugitive'
