@@ -24,3 +24,11 @@ let g:ycm_semantic_triggers =  {
 			\ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
 			\ 'cs,lua,javascript': ['re!\w{2}'],
 			\ }
+
+let g:ycm_python_interpreter_path = ''
+let g:ycm_python_sys_path = []
+let g:ycm_extra_conf_vim_data = [
+  \  'g:ycm_python_interpreter_path',
+  \  'g:ycm_python_sys_path'
+  \]
+let g:ycm_global_ycm_extra_conf = '~/.vim_plugs/plugs/YouCompleteMe/python_extra_conf.py'

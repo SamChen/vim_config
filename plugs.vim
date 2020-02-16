@@ -36,7 +36,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/vim-slash'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'wincent/terminus'
-Plug 'Shougo/denite.nvim'
+Plug 'vim-python/python-syntax'
 
 
 " Cosmetics, color scheme, Powerline...
@@ -44,6 +44,7 @@ Plug 'iCyMind/NeoSolarized'
 
 " auto complete
 Plug 'Valloric/YouCompleteMe'
+Plug 'davidhalter/jedi-vim'
 
 
 Plug 'tell-k/vim-autopep8'
