@@ -41,6 +41,7 @@ Plug 'vim-python/python-syntax'
 
 " Cosmetics, color scheme, Powerline...
 Plug 'iCyMind/NeoSolarized'
+Plug 'lifepillar/vim-solarized8'
 
 " auto complete
 Plug 'Valloric/YouCompleteMe'
