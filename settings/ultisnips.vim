@@ -4,6 +4,6 @@ let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 
-let g:UltiSnipsSnippetsDir = "~/.vim/settings/UltiSnips"
-let g:UltiSnipsSnippetDirectories=["~/.vim/settings/UltiSnips", "~/.vim/plugged/vim-snippets/UltiSnips"]
+"let g:UltiSnipsSnippetsDir = "~/.vim"
+"let g:UltiSnipsSnippetDirectories=["~/.vim_plugs/plugs/ultisnips", "~/.vim_plugs/plugs/vim-snippets/UltiSnips"]
 let g:tex_flavor = "latex"

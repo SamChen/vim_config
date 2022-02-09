@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'w0rp/ale'
+Plug 'christoomey/vim-tmux-navigator'
 
 "reduce the repeat work.
 Plug 'SirVer/ultisnips'
@@ -43,10 +44,10 @@ Plug 'vim-python/python-syntax'
 Plug 'iCyMind/NeoSolarized'
 Plug 'lifepillar/vim-solarized8'
 
+
 " auto complete
 Plug 'Valloric/YouCompleteMe'
 Plug 'davidhalter/jedi-vim'
-
 
 Plug 'tell-k/vim-autopep8'
 Plug 'terryma/vim-expand-region'
