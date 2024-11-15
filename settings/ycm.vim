@@ -1,4 +1,4 @@
-source /Users/chliu/github/lsp-examples/vimrc.generated
+" source /Users/chliu/github/lsp-examples/vimrc.generated
 
 let g:ycm_add_preview_to_completeopt = 0
 " this decides whether I want the preview of a function
@@ -14,7 +14,7 @@ let g:ycm_complete_in_strings=0
 let g:ycm_key_invoke_completion = '<C-c>'
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:ycm_server_python_interpreter='/usr/local/bin/python3.9'
+" let g:ycm_server_python_interpreter='/usr/local/bin/python3.9'
 set completeopt=menu,menuone
 
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
