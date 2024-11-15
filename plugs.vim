@@ -41,7 +41,7 @@ Plug 'vim-python/python-syntax'
 
 
 " Cosmetics, color scheme, Powerline...
-" Plug 'iCyMind/NeoSolarized'
+Plug 'overcache/NeoSolarized'
 Plug 'lifepillar/vim-solarized8'
 
 
