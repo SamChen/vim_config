@@ -22,7 +22,10 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'rhysd/vim-lsp-ale'
 Plug 'christoomey/vim-tmux-navigator'
 
 "reduce the repeat work.
