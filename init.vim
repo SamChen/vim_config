@@ -238,7 +238,8 @@ inoremap <leader>i <esc>
 :nn <M-0> :tablast<CR>
 
 " 打开文件自动 打开tagbar
-autocmd BufReadPost *.py,*.pyc,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+" autocmd BufReadPost *.py,*.pyc,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+
 
 " ================ Custom Settings ========================
 for fpath in split(globpath('~/.vim/settings', '*.vim'), '\n')
