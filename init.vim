@@ -3,7 +3,8 @@
 set nocompatible
 
 " Map the leader key. Must happen before Plug so all the settings can be set accordingly.
-let mapleader = " "
+" let mapleader = " "
+let mapleader = ","
 
 
 " =============== Plug Initialization ===============
