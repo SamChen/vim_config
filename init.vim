@@ -83,8 +83,6 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile *.md setlocal textwidth=80
 
 
-  "打开文件自动 打开tagbar
-  autocmd BufReadPost *.py,*.pyc,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 augroup END
 
 
@@ -243,14 +241,11 @@ inoremap <leader>i <esc>
 :nn <M-9> 9gt
 :nn <M-0> :tablast<CR>
 
-" 打开文件自动 打开tagbar
-" autocmd BufReadPost *.py,*.pyc,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
-
+" Start NERDTree. If a file is specified, move the cursor to its window.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 
 " ================ Custom Settings ========================
 for fpath in split(globpath('~/.vim/settings', '*.vim'), '\n')
   exe 'source' fpath
 endfor
-
-
-let g:tagbar_left = 1
