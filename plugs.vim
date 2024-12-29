@@ -41,6 +41,7 @@ Plug 'junegunn/vim-slash'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'wincent/terminus'
 Plug 'vim-python/python-syntax'
+Plug 'preservim/nerdtree'
 
 
 " Cosmetics, color scheme, Powerline...
