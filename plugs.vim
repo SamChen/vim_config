@@ -15,7 +15,7 @@ call plug#begin('~/.vim_plugs/plugs')
 " Languages
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rails'
-Plug 'mmorearty/elixir-ctags'
+" Plug 'mmorearty/elixir-ctags'
 Plug 'majutsushi/tagbar'
 
 " General text editing improvements...
@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'liuchengxu/vista.vim'
 
 "reduce the repeat work.
 Plug 'honza/vim-snippets'
