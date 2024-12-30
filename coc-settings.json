@@ -1,0 +1,6 @@
+{
+    "pyright.inlayHints.parameterTypes": false, // this is why pyright is so slooooooow. https://github.com/fannheyward/coc-pyright/issues/1087#issuecomment-2174690800
+    "python.linting.ruffEnabled": true,
+    "pyright.organizeimports.provider": true
+
+}
