@@ -245,6 +245,8 @@ inoremap <leader>i <esc>
 " Start NERDTree. If a file is specified, move the cursor to its window.
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+" Open the existing NERDTree on each new tab.
+autocmd BufWinEnter * if &buftype != 'quickfix' && getcmdwintype() == '' | silent NERDTreeMirror | endif
 
 " ================ Custom Settings ========================
 for fpath in split(globpath('~/.vim/settings', '*.vim'), '\n')
