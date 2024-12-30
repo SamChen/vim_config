@@ -45,7 +45,8 @@ Plug 'overcache/NeoSolarized'
 
 
 " auto complete
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
 Plug 'davidhalter/jedi-vim'
 
 Plug 'tell-k/vim-autopep8'
