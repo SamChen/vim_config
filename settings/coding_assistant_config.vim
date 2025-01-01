@@ -172,7 +172,16 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Jedi
+" pydocstring
+" hotkeys
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <silent> ga <Plug>(coc-codeaction-line)
+xmap <silent> ga <Plug>(coc-codeaction-selected)
+nmap <silent> gA <Plug>(coc-codeaction)
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Jedi for python
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Disable Jedi-vim autocompletion and enable call-signatures options
 " Youcompleteme is my autocompleter. Jedi-vim is just for pydoc checking
