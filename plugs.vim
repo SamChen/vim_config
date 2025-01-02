@@ -4,10 +4,10 @@
 "
 set rtp+=/usr/local/opt/fzf
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-endif
+" if empty(glob('~/.vim/autoload/plug.vim'))
+"   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+"     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" endif
 
 call plug#begin('~/.vim_plugs/plugs')
 
@@ -24,6 +24,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'liuchengxu/vista.vim'
+" show css color
+Plug 'ap/vim-css-color'
 
 "reduce the repeat work.
 Plug 'honza/vim-snippets'
