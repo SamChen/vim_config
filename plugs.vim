@@ -37,7 +37,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/vim-slash'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'wincent/terminus'
-Plug 'vim-python/python-syntax'
 Plug 'preservim/nerdtree'
 
 

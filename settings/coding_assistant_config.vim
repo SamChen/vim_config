@@ -13,7 +13,7 @@ set nowritebackup
 
 "
 autocmd VimEnter,ColorScheme * hi! link CocFloating CocHintFloat
-let g:coc_global_extensions = ['coc-pyright', 'coc-git', "coc-pydocstring"]
+let g:coc_global_extensions = ['coc-pyright', 'coc-git', "coc-pydocstring", "@yaegassy/coc-black-formatter"]
 
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
