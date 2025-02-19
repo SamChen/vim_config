@@ -230,6 +230,10 @@ inoremap <leader>i <esc>
 " nnoremap <C-L> <C-W><C-L>
 " nnoremap <C-H> <C-W><C-H>
 
+" join multiple lines into one line
+vnoremap <leader>j :join<CR>
+
+
 " tab switching
 :nn <M-1> 1gt
 :nn <M-2> 2gt
