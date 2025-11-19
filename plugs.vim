@@ -43,6 +43,7 @@ Plug 'preservim/nerdtree'
 " Cosmetics, color scheme, Powerline...
 " Plug 'altercation/vim-colors-solarized'
 Plug 'overcache/NeoSolarized'
+Plug 'sainnhe/everforest'
 
 
 " auto complete
