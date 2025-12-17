@@ -38,6 +38,8 @@ Plug 'junegunn/vim-slash'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'wincent/terminus'
 Plug 'preservim/nerdtree'
+" On-demand lazy load
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 
 
 " Cosmetics, color scheme, Powerline...
